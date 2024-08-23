@@ -1,0 +1,23 @@
+Write working code as described in below exercises and share the code at end of interview.
+
+Share your GitHub repo.
+Or
+
+Mail you code in email. (Do not share the code files)
+
+Exercise1: Perform NFL player modifications locally and upload the file as an artifact
+
+Task 1: Write a python script to perform the modifications:
+
+Grab list of players from --> https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2023/teams/18/athletes?limit=5
+Save all 5 players in player object
+Update one player age to 99 and remove one player.
+Save the update list to a file
+ 
+
+Task 2: Write a GitHub workflow to trigger checks on each pull request and fail if any of the check fail
+
+Perform a lint operation (pylint or similar)
+Perform a CodeQL scan
+If no failures, upload the file as an artifact to your repo
+ 
