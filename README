@@ -15,7 +15,7 @@ Update one player age to 99 and remove one player.
 Save the update list to a file
  
 
-Task 2: Write a GitHub workflow to trigger checks on each pull request and fail if any of the check fail
+Task 2: Write a GitHub workflow to trigger checks on each "pull request" and fail if any of the check fail
 
 Perform a lint operation (pylint or similar)
 Perform a CodeQL scan
