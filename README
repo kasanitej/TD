@@ -20,4 +20,3 @@ Task 2: Write a GitHub workflow to trigger checks on each "pull request" and fai
 Perform a lint operation (pylint or similar)
 Perform a CodeQL scan
 If no failures, upload the file as an artifact to your repo
- 
